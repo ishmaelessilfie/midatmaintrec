@@ -1,0 +1,108 @@
+/*<link rel="stylesheet" href="../bower_components/font-awesome/css/font-awesome.min.css">*/
+
+
+:root{
+  --first-color: #1A73E8;
+  --input-color: #80868B;
+  --border-color: #DADCE0;
+  --normal-font-size: 1.7rem;
+  --small-font-size: 1.6rem;
+}
+
+.form_div{
+  position: relative;
+  height: 48px;
+ 
+  margin-bottom: 30px;
+  padding-bottom: 20px;
+}
+.form_input{
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  font-size: var(--normal-font-size);
+  border:1px solid var(--border-color);
+  border-radius: 4px;
+  outline: none;
+  padding: 1rem;
+  background: none;
+  z-index: 1;
+}
+.form_label{
+  position: absolute;
+  left:1rem;
+  top:1.1rem;
+  padding: 0 .55rem;
+  background-color: #fff;
+  color: var(--input-color);
+  font-size: var(--normal-font-size);
+  transition: .3s;
+}
+
+.form_input:focus + .form_label{
+  top:-1.24rem;
+  left: .8rem;
+  color: var(--input-color);
+  font-size: var(--small-font-size);
+  font-weight: 500;
+  z-index: 10;
+}
+.form_input:not(:placeholder-shown).form_input:not(:focus)+ .form_label{
+  top:-1.24rem;
+  left: .8rem;
+  color: var(--first-color);
+  font-size: var(--small-font-size);
+  font-weight: 500;
+  z-index: 10;
+
+}
+
+.form_input:focus{
+  border: 1.5px solid #2ecc71;
+}
+
+.form_div i{
+  position:absolute;
+  top:17px;
+  right: 10px;
+  visibility: hidden;
+}
+.form_div small{
+  visibility: hidden;
+  position:absolute;
+  top: 50px;
+  left:0px;
+}
+.form_div.success input{
+  border-color: #2ecc71;
+}
+.form_div.error input{
+  border-color: #e74c3c;
+}
+.form_div.success label{
+  color: #80868B;
+}
+
+.form_div.success i.fa-check-circle {
+  color: #2ecc71; 
+  visibility: visible;
+}
+
+.form_div.error i.fa-exclamation-circle {
+  color: #e74c3c;
+  visibility: visible;
+}
+
+.form_div small {
+  color: #e74c3c;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  visibility: hidden;
+}
+
+.form_div.error small {
+  visibility: visible;
+}
