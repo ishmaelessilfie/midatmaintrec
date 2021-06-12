@@ -191,7 +191,7 @@ $('.serial_number').change(function(event){
    var formData = $("#report").serialize();
 $("#table_div1").empty();
 $.ajax({
-  url: "maintenance_history_row.php", 
+  url: "https://midatlanticmaintsys.herokuapp.com/maintenance_history_row.php", 
   method:"POST", 
   data :formData,
   dataType: 'json',
