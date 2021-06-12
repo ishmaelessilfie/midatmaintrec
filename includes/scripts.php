@@ -1,5 +1,5 @@
 <!-- jQuery 3 -->
-<script src="bower_components/jquery/dist/jquery.min.js"></script>
+<script src="https://midatlanticmaintsys.herokuapp.com/bower_components/jquery/dist/jquery.min.js"></script>
 <!-- DataTables -->
 <script src="https://midatlanticmaintsys.herokuapp.com/bower_components/datatables.net/js/jquery.dataTables.min.js"></script>
 <script src="https://midatlanticmaintsys.herokuapp.com/bower_components/datatables.net-bs/js/dataTables.bootstrap.min.js"></script>
@@ -65,7 +65,7 @@ $('#close').click(function(){
 
  function maintenance_statistics(){
   $.ajax({
-  url: "maintenance_history_row_all", 
+  url: "https://midatlanticmaintsys.herokuapp.com/maintenance_history_row_all", 
   method:"GET", 
   dataType: 'json',
   success: function(result){
