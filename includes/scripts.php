@@ -1,27 +1,27 @@
 <!-- jQuery 3 -->
 <script src="bower_components/jquery/dist/jquery.min.js"></script>
 <!-- DataTables -->
-<script src="bower_components/datatables.net/js/jquery.dataTables.min.js"></script>
-<script src="bower_components/datatables.net-bs/js/dataTables.bootstrap.min.js"></script>
-<script src="bower_components/datatables.net-bs/js/rowReorder.min.js"></script>
-<script src="bower_components/datatables.net-bs/js/responsive.min.js"></script>
-<script src="bower_components/datatables.net-bs/js/dataTables.buttons.min.js"></script>
-<script src="bower_components/datatables.net-bs/js/jszip.min.js"></script>
-<script src="bower_components/datatables.net-bs/js/pdfmake.min.js"></script>
-<script src="bower_components/datatables.net-bs/js/vfs_fonts.min.js"></script>
-<script src="bower_components/datatables.net-bs/js/buttons.html5.min.js"></script>
-<script src="bower_components/datatables.net-bs/js/buttons.print.min.js"></script> 
+<script src="https://midatlanticmaintsys.herokuapp.com/bower_components/datatables.net/js/jquery.dataTables.min.js"></script>
+<script src="https://midatlanticmaintsys.herokuapp.com/bower_components/datatables.net-bs/js/dataTables.bootstrap.min.js"></script>
+<script src="https://midatlanticmaintsys.herokuapp.com/bower_components/datatables.net-bs/js/rowReorder.min.js"></script>
+<script src="https://midatlanticmaintsys.herokuapp.com/bower_components/datatables.net-bs/js/responsive.min.js"></script>
+<script src="https://midatlanticmaintsys.herokuapp.com/bower_components/datatables.net-bs/js/dataTables.buttons.min.js"></script>
+<script src="https://midatlanticmaintsys.herokuapp.com/bower_components/datatables.net-bs/js/jszip.min.js"></script>
+<script src="https://midatlanticmaintsys.herokuapp.com/bower_components/datatables.net-bs/js/pdfmake.min.js"></script>
+<script src="https://midatlanticmaintsys.herokuapp.com/bower_components/datatables.net-bs/js/vfs_fonts.min.js"></script>
+<script src="https://midatlanticmaintsys.herokuapp.com/bower_components/datatables.net-bs/js/buttons.html5.min.js"></script>
+<script src="https://midatlanticmaintsys.herokuapp.com/bower_components/datatables.net-bs/js/buttons.print.min.js"></script> 
 <script type="text/javascript" src="parsley/dist/parsley.min.js"></script>
 <!-- Bootstrap 3.3.7 -->
-<script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="https://midatlanticmaintsys.herokuapp.com/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
 <!-- datepicker -->
-<script src="bower_components/select2/dist/js/select2.js"></script>
-<script src="bower_components/select2/dist/js/bootstrap-select.js"></script>
-<script src="bower_components/bootstrap-datepicker/dist/js/bootstrap-datepicker.min.js"></script>
+<script src="https://midatlanticmaintsys.herokuapp.com/bower_components/select2/dist/js/select2.js"></script>
+<script src="https://midatlanticmaintsys.herokuapp.com/bower_components/select2/dist/js/bootstrap-select.js"></script>
+<script src="https://midatlanticmaintsys.herokuapp.com/bower_components/bootstrap-datepicker/dist/js/bootstrap-datepicker.min.js"></script>
 <!-- AdminLTE App -->
-<script src="dist/js/adminlte.min.js"></script>
+<script src="https://midatlanticmaintsys.herokuapp.com/dist/js/adminlte.min.js"></script>
 <!-- <script src="dist/js/demo.js"></script> -->
-<script src="dist/js/sweetalert2.js"></script>
+<script src="https://midatlanticmaintsys.herokuapp.com/dist/js/sweetalert2.js"></script>
 <!--"fnDrawCallback": function(oSettings){-->
 <script>
 
