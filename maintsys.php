@@ -2,21 +2,20 @@
 
 class maintsys
 {
-	public $base_url = 'http://localhost/midatmaintrec/';
-	// public $base_url = 'https://midatmaintrec.herokuapp.com/';
+// 	public $base_url = 'http://localhost/midatmaintrec/';
+	public $base_url = 'https://midatmaintrec.herokuapp.com/';
 	public $connect;
 	public $query;
 	public $statement;
 
 	function maintsys()
 	{
-		$this->connect = new PDO("mysql:host=localhost;dbname=maintenance_db", "root", "");
-		// $this->connect = new PDO("mysql:host=remotemysql.com;dbname=FaWMAUm8P4", "FaWMAUm8P4", "qoWSTBdwMP");
+// 		$this->connect = new PDO("mysql:host=localhost;dbname=maintenance_db", "root", "");
+		$this->connect = new PDO("mysql:host=remotemysql.com;dbname=FaWMAUm8P4", "FaWMAUm8P4", "qoWSTBdwMP");
 
 		session_start();
 	}
-    
-
+	
 	function execute($data = null)
 	{
 		$this->statement = $this->connect->prepare($this->query);
