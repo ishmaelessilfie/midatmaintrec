@@ -1,6 +1,6 @@
 <?php
 
-include('https://midatlanticmaintsys.herokuapp.com/maintsys.php');
+include('maintsys.php');
 
 $user = new maintsys();
 
