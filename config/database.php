@@ -1,7 +1,7 @@
 <?php
 class Database{
     //Production
-    private $db_host = 'https://remotemysql.com/phpmyadmin/sql.php';
+    private $db_host = 'https://remotemysql.com/phpmyadmin';
     private $db_name = 'FaWMAUm8P4';
     private $db_username = 'FaWMAUm8P4';
     private $db_password = 'qoWSTBdwMP';
