@@ -41,7 +41,7 @@ $(document).ready(function(){
     {   
       $('.spin').css('display','block');
       $.ajax({
-        url:"https://midatlanticmaintsys.herokuapp.com/login.php",
+        url:"https://midatmaintrec.herokuapp.com/login.php",
         method:"POST",
         data:$(this).serialize(),
         dataType:'json',
