@@ -11,7 +11,7 @@ class maintsys
 	function maintsys()
 	{
 // 		$this->connect = new PDO("mysql:host=localhost;dbname=maintenance_db", "root", "");
-		$this->connect = new PDO("mysql:host=remotemysql.com;dbname=FaWMAUm8P4", "FaWMAUm8P4", "qoWSTBdwMP");
+		$this->connect = new PDO("mysql:host=https://remotemysql.com/phpmyadmin/sql.php;dbname=FaWMAUm8P4", "FaWMAUm8P4", "qoWSTBdwMP");
 
 		session_start();
 	}
